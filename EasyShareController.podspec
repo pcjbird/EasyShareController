@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
     s.description      = <<-DESC
     一款让社交分享变得简单的视图控制器
     DESC
-    s.homepage         = "http://www.lessney.com"
+    s.homepage         = "https://github.com/pcjbird/EasyShareController"
     s.license          = 'MIT'
     s.author           = {"pcjbird" => "pcjbird@hotmail.com"}
     s.source           = {:git => "https://github.com/pcjbird/EasyShareController.git", :tag => s.version.to_s}
-    s.social_media_url = 'https://github.com/pcjbird/EasyShareController'
+    s.social_media_url = 'http://www.lessney.com'
     s.requires_arc     = true
 #s.documentation_url = ''
 #s.screenshot       = ''
