@@ -40,6 +40,10 @@
  */
 @property (nonatomic, assign) BOOL  showTitleAsWebProvider;
 /*
+ * @brief 是否将标题显示在左侧  默认 NO
+ */
+@property (nonatomic, assign) BOOL  showTitleAlignmentLeft;
+/*
  * @brief 取消按钮标题 默认为Cancel
  */
 @property (nonatomic, strong) NSString* cancelTitle;

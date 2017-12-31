@@ -96,6 +96,7 @@
     _firstRowCount = 0;
     _shareTitle = nil;
     _showTitleAsWebProvider = NO;
+    _showTitleAlignmentLeft = NO;
     _cancelTitle = UIKitLocalizedString(@"Cancel");
     
     _headerView = nil;
@@ -199,11 +200,12 @@
         
         CGFloat fontSize = self.showTitleAsWebProvider ? 11.0f : 15.0f;
         CGFloat top = self.showTitleAsWebProvider ? 9.0f : 17.0f;
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, top, headerView.frame.size.width, fontSize)];
-        label.textAlignment = NSTextAlignmentCenter;
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(16.0f, top, headerView.frame.size.width-32.0f, fontSize)];
+        label.textAlignment = _showTitleAlignmentLeft ? NSTextAlignmentJustified : NSTextAlignmentCenter;
         label.textColor = self.showTitleAsWebProvider ? [UIColor colorWithRed:99/255.0 green:98/255.0 blue:98/255.0 alpha:1.0] : [UIColor colorWithRed:51/255.0 green:68/255.0 blue:79/255.0 alpha:1.0];
         label.backgroundColor = [UIColor clearColor];
         label.font = [UIFont systemFontOfSize:fontSize];
+        label.adjustsFontSizeToFitWidth = YES;
         label.text = self.shareTitle;
         [headerView addSubview:label];
         _headerView = headerView;
