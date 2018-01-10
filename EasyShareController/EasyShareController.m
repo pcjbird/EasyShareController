@@ -325,9 +325,12 @@
         {
             [button setImage:highlightIcon forState:UIControlStateHighlighted];
         }
+        __weak typeof(self) weakSelf = self;
+        __weak typeof (item) weakItem = item;
         button.clickBlock = ^(UIButton *button) {
-            __weak typeof (item) weakItem = item;
-            if(item.shareAction)item.shareAction(weakItem);
+            [weakSelf dismissViewControllerAnimated:YES completion:^{
+                if(item.shareAction)item.shareAction(weakItem);
+            }];
         };
         [view addSubview:button];
         

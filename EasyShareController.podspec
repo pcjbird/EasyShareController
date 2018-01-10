@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "EasyShareController"
-    s.version          = "1.0.0"
+    s.version          = "1.0.1"
     s.summary          = "一款让社交分享变得简单的视图控制器"
     s.description      = <<-DESC
     一款让社交分享变得简单的视图控制器
