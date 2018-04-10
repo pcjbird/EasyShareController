@@ -4,7 +4,10 @@
 [![Pod Platform](http://img.shields.io/cocoapods/p/EasyShareController.svg?style=flat)](http://cocoadocs.org/docsets/EasyShareController/)
 [![Pod License](http://img.shields.io/cocoapods/l/EasyShareController.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![CocoaPods](https://img.shields.io/cocoapods/at/EasyShareController.svg)](https://github.com/pcjbird/EasyShareController)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/EasyShareController.svg)](https://github.com/pcjbird/EasyShareController)
 [![GitHub release](https://img.shields.io/github/release/pcjbird/EasyShareController.svg)](https://github.com/pcjbird/EasyShareController/releases)
+[![GitHub release](https://img.shields.io/github/release-date/pcjbird/EasyShareController.svg)](https://github.com/pcjbird/EasyShareController/releases)
+[![Website](https://img.shields.io/website-pcjbird-down-green-red/https/shields.io.svg?label=author)](https://pcjbird.github.io)
 
 # EasyShareController
 一款让社交分享变得简单的视图控制器。
