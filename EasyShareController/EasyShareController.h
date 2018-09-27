@@ -8,6 +8,9 @@
 //  框架名称:EasyShareController
 //  框架功能:一款让社交分享变得简单的视图控制器。
 //  修改记录:
+//     pcjbird    2018-09-27  Version:1.0.2 Build:201809270001
+//                            1.iPhoneXR/iPhone XS/iPhone XS Max适配
+//
 //     pcjbird    2018-01-10  Version:1.0.1 Build:201801100001
 //                            1.点击分享项同时关闭分享窗口
 //

@@ -172,8 +172,8 @@
         height += 8.0f;
         //cancel button
         height += 50.0f;
-        //iPhoneX
-        if(CGRectGetHeight([UIScreen mainScreen].bounds) == 812.0f)
+        //iPhoneX iPhoneXR iPhone XS iPhone XS Max
+        if(CGRectGetHeight([UIScreen mainScreen].bounds) == 812.0f || CGRectGetHeight([UIScreen mainScreen].bounds) == 896.0f)
         {
             height += 34.0f;
         }
@@ -405,8 +405,8 @@
         CGFloat buttonHeight = 50.0f;
         CGFloat top = CGRectGetHeight(_sheetView.bounds);
         top -= buttonHeight;
-        //iPhoneX
-        if(CGRectGetHeight([UIScreen mainScreen].bounds) == 812.0f)
+        //iPhoneX iPhoneXR iPhone XS iPhone XS Max
+        if(CGRectGetHeight([UIScreen mainScreen].bounds) == 812.0f || CGRectGetHeight([UIScreen mainScreen].bounds) == 896.0f)
         {
             top -= 34.0f;
         }
